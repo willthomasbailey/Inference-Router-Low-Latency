@@ -53,3 +53,8 @@ export type { RoutingCandidate, RoutingResponse } from './types/routing.js';
 
 // Crypto utilities
 export { encrypt, decrypt, generateKey } from './crypto.js';
+
+// Static configuration data
+import providersConf from './conf/providers.json';
+import llmApiPricing from './conf/llm_api_pricing.json';
+export { providersConf, llmApiPricing };
