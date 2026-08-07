@@ -8,6 +8,9 @@
     "themeCycle": {
       "title": "Theme: {{theme}}"
     },
+    "language": {
+      "label": "Language"
+    },
     "sidebar": {
       "expand": "Expand sidebar",
       "collapse": "Collapse sidebar"
@@ -656,6 +659,11 @@
         "maxSizeMb": "Max size (MB)",
         "retentionHint": "Usage/billing history older than this many days, or exceeding this size, is dropped from the active log. Leave both empty for no retention limit."
       },
+      "internationalization": {
+        "heading": "Internationalization",
+        "defaultLanguage": "Default Language",
+        "defaultLanguageHint": "Dashboard language for users who haven't picked their own yet. Does not override a user's personal choice."
+      },
       "telemetry": {
         "heading": "Anonymous Metrics",
         "neverAutomatic": "Routerly never sends data automatically.",
@@ -1149,6 +1157,13 @@
       "count_other": "{{count}} routers",
       "newRouter": "New Router",
       "empty": "No routers yet.",
+      "emptyFiltered": "No routers of this kind.",
+      "tabs": {
+        "all": "All",
+        "router": "Router",
+        "orchestrator": "Orchestrator",
+        "passthrough": "Passthrough"
+      },
       "columns": {
         "name": "Name",
         "tokens": "Tokens",
